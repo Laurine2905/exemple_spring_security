@@ -7,6 +7,7 @@ import Intervenant from "../../../exemple_spring_security/src/main/resources/tem
   <body>
   <div>
     <Bandeau />
+    <router-view></router-view>
   </div>
   </body>
 </template>

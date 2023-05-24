@@ -2,7 +2,7 @@
 import {BACKEND, doAjaxRequest} from "@/views/api.js";
 import {onMounted, reactive} from "vue";
 import { useRoute } from 'vue-router'
-import router from "@/../../../../exemple_spring_security/src/main/resources/static/js/index.js";
+import router from "@/../../../../exemple_spring_security/src/main/resources/static/js/router.js";
 
 const route = useRoute();
 
