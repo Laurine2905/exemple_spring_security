@@ -26,14 +26,23 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
         return new BCryptPasswordEncoder();
     }
 
-    @Override
-    protected void configure(HttpSecurity http) throws Exception {
-        // Configuration de la page de login
-        http.formLogin().loginPage("/login").permitAll().and().logout().permitAll();
-        // La console h2 est réservée à l'administrateur
-        http.authorizeRequests().antMatchers("/h2-console/**").hasRole("ADMIN").and().csrf()
-            .ignoringAntMatchers("/h2-console/**").and().headers().frameOptions().sameOrigin();
-    }
+
+        @Override
+        protected void configure(HttpSecurity http) throws Exception {
+            http
+                    .authorizeRequests()
+                    .antMatchers("/arret").permitAll() // Autoriser l'accès à l'URL /arret
+                    .anyRequest().authenticated()
+                    .and()
+                    .formLogin()
+                    // Autres configurations de connexion
+                    .and()
+                    .logout()
+                    // Autres configurations de déconnexion
+                    .and()
+                    .csrf().disable();
+        }
+
 
     @Bean
     public AuthenticationManager customAuthenticationManager() throws Exception {
