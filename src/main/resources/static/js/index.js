@@ -1,15 +1,15 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import Intervenant from 'C:/Users/lauri/IdeaProjects/exemple_spring_security/src/main/resources/templates/Intervenant.vue';
-import IntervenantAdd from 'C:/Users/lauri/IdeaProjects/exemple_spring_security/src/main/resources/templates/IntervenantAdd.vue';
-import IntervenantFiche from 'C:/Users/lauri/IdeaProjects/exemple_spring_security/src/main/resources/templates/IntervenantFiche.vue';
-import IntervenantContrat from 'C:/Users/lauri/IdeaProjects/exemple_spring_security/src/main/resources/templates/IntervenantContrat.vue';
-import Arret from 'C:/Users/lauri/IdeaProjects/exemple_spring_security/src/main/resources/templates/Arret.vue';
-import Rechercher from 'C:/Users/lauri/IdeaProjects/exemple_spring_security/src/main/resources/templates/Rechercher.vue';
-import ArretAdd from 'C:/Users/lauri/IdeaProjects/exemple_spring_security/src/main/resources/templates/ArretAdd.vue';
-import Arret2Add from 'C:/Users/lauri/IdeaProjects/exemple_spring_security/src/main/resources/templates/Arret2Add.vue';
-import StatistiqueMetier  from "C:/Users/lauri/IdeaProjects/exemple_spring_security/src/main/resources/templates/StatistiqueMetier.vue";
-import StatistiqueAge  from "C:/Users/lauri/IdeaProjects/exemple_spring_security/src/main/resources/templates/StatistiqueAge.vue";
-import ContratAdd  from "C:/Users/lauri/IdeaProjects/exemple_spring_security/src/main/resources/templates/ContratAdd.vue";
+import Intervenant from 'C:/Users/lauri/IdeaProjects/exemple_spring_security/src/main/resources/static/Intervenant.vue';
+import IntervenantAdd from 'C:/Users/lauri/IdeaProjects/exemple_spring_security/src/main/resources/static/IntervenantAdd.vue';
+import IntervenantFiche from 'C:/Users/lauri/IdeaProjects/exemple_spring_security/src/main/resources/static/IntervenantFiche.vue';
+import IntervenantContrat from 'C:/Users/lauri/IdeaProjects/exemple_spring_security/src/main/resources/static/IntervenantContrat.vue';
+import Arret from 'C:/Users/lauri/IdeaProjects/exemple_spring_security/src/main/resources/static/Arret.vue';
+import Rechercher from 'C:/Users/lauri/IdeaProjects/exemple_spring_security/src/main/resources/static/Rechercher.vue';
+import ArretAdd from 'C:/Users/lauri/IdeaProjects/exemple_spring_security/src/main/resources/static/ArretAdd.vue';
+import Arret2Add from 'C:/Users/lauri/IdeaProjects/exemple_spring_security/src/main/resources/static/Arret2Add.vue';
+import StatistiqueMetier  from "C:/Users/lauri/IdeaProjects/exemple_spring_security/src/main/resources/static/StatistiqueMetier.vue";
+import StatistiqueAge  from "C:/Users/lauri/IdeaProjects/exemple_spring_security/src/main/resources/static/StatistiqueAge.vue";
+import ContratAdd  from "C:/Users/lauri/IdeaProjects/exemple_spring_security/src/main/resources/static/ContratAdd.vue";
 import {createApp} from "vue";
 import IntervenantArret from "C:/Users/lauri/IdeaProjects/exemple_spring_security/src/main/resources/templates/IntervenantArret.vue";
 
