@@ -1,4 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router';
+
 import Intervenant from 'C:/Users/lauri/IdeaProjects/exemple_spring_security/src/main/resources/static/Intervenant.vue';
 import IntervenantAdd from 'C:/Users/lauri/IdeaProjects/exemple_spring_security/src/main/resources/static/IntervenantAdd.vue';
 import IntervenantFiche from 'C:/Users/lauri/IdeaProjects/exemple_spring_security/src/main/resources/static/IntervenantFiche.vue';
@@ -10,7 +11,6 @@ import Arret2Add from 'C:/Users/lauri/IdeaProjects/exemple_spring_security/src/m
 import StatistiqueMetier  from "C:/Users/lauri/IdeaProjects/exemple_spring_security/src/main/resources/static/StatistiqueMetier.vue";
 import StatistiqueAge  from "C:/Users/lauri/IdeaProjects/exemple_spring_security/src/main/resources/static/StatistiqueAge.vue";
 import ContratAdd  from "C:/Users/lauri/IdeaProjects/exemple_spring_security/src/main/resources/static/ContratAdd.vue";
-import {createApp} from "vue";
 import IntervenantArret from "C:/Users/lauri/IdeaProjects/exemple_spring_security/src/main/resources/templates/IntervenantArret.vue";
 
 
