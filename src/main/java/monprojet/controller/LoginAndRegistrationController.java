@@ -27,6 +27,11 @@ public class LoginAndRegistrationController {
         this.userValidator = userValidator;
     }
 
+    @GetMapping("/")
+    public String home() {
+        return "index";
+    }
+
     @GetMapping("/registration")
     public String registration(Model model) {
         model.addAttribute("userForm", new Utilisateur());
@@ -60,8 +65,4 @@ public class LoginAndRegistrationController {
         return "login";
     }
 
-    @GetMapping({"/", "/welcome"})
-    public String welcome(Model model) {
-        return "welcome";
-    }
 }
