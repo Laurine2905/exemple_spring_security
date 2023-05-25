@@ -1,17 +1,17 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import Intervenant from 'Intervenant.vue';
-import IntervenantAdd from 'IntervenantAdd.vue';
-import IntervenantFiche from 'IntervenantFiche.vue';
-import IntervenantContrat from 'IntervenantContrat.vue';
-import Arret from 'Arret.vue';
-import Rechercher from 'Rechercher.vue';
-import ArretAdd from 'ArretAdd.vue';
-import Arret2Add from 'Arret2Add.vue';
-import StatistiqueMetier  from "StatistiqueMetier.vue";
-import StatistiqueAge  from "StatistiqueAge.vue";
-import ContratAdd  from "ContratAdd.vue";
+import Intervenant from '../Intervenant.vue';
+import IntervenantAdd from '../IntervenantAdd.vue';
+import IntervenantFiche from '../IntervenantFiche.vue';
+import IntervenantContrat from '../IntervenantContrat.vue';
+import Arret from '../Arret.vue';
+import Rechercher from '../Rechercher.vue';
+import ArretAdd from '../ArretAdd.vue';
+import Arret2Add from '../Arret2Add.vue';
+import StatistiqueMetier  from "../StatistiqueMetier.vue";
+import StatistiqueAge  from "../StatistiqueAge.vue";
+import ContratAdd  from "../ContratAdd.vue";
 import {createApp} from "vue";
-import IntervenantArret from "IntervenantArret.vue";
+import IntervenantArret from "../IntervenantArret.vue";
 
 
 const router = createRouter({

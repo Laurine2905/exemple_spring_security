@@ -174,7 +174,7 @@ onMounted(chargeIntervenant);
           <td>
             <!-- on va sur la fiche individuelle de l'intervenant -->
             <button class="add" @click="popup(intervenants.num_SS)">
-              <img src="../assets/supprimer.png" height="30" width="30"/>
+              <img src="assets/supprimer.png" height="30" width="30"/>
             </button>
           </td>
         </tr>

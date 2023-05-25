@@ -102,7 +102,7 @@ onMounted(chargeIntervenant);
           <td>
             <!-- on va sur la fiche individuelle de l'intervenant -->
             <button class="add" @click="afficherFiche(intervenants.num_SS)">
-              <img src="../assets/fleche-droite.png" height="30" width="30" alt="acceder"/>
+              <img src="assets/fleche-droite.png" height="30" width="30" alt="acceder"/>
             </button>
           </td>
         </tr>

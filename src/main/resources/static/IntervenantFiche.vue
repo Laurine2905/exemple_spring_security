@@ -223,7 +223,7 @@ onMounted(chargeIntervenant);
                     <th class="colonne">Ajouter un arrêt</th>
                     <th>
                       <button @click="ajoutArret(data.intervenant.num_SS)">
-                       <img src="../assets/fleche-droite.png" height="30" width="30" alt="acceder"/>
+                       <img src="assets/fleche-droite.png" height="30" width="30" alt="acceder"/>
                       </button>
                     </th>
                   </tr>
@@ -231,7 +231,7 @@ onMounted(chargeIntervenant);
                     <th class="colonne">Ajouter un arrêt spécial</th>
                     <th>
                       <button @click="ajoutArret2(data.intervenant.num_SS)">
-                        <img src="../assets/fleche-droite.png" height="30" width="30" alt="acceder"/>
+                        <img src="assets/fleche-droite.png" height="30" width="30" alt="acceder"/>
                       </button>
                     </th>
                   </tr>
@@ -239,7 +239,7 @@ onMounted(chargeIntervenant);
                     <th class="colonne">Ajouter un contrat</th>
                     <th>
                       <button @click="ajoutContrat(data.intervenant.num_SS)">
-                        <img src="../assets/fleche-droite.png" height="30" width="30" alt="acceder"/>
+                        <img src="assets/fleche-droite.png" height="30" width="30" alt="acceder"/>
 
                       </button>
                     </th>
@@ -249,7 +249,7 @@ onMounted(chargeIntervenant);
                     <th class="colonne">Voir tous les arrêts</th>
                     <th>
                       <button @click="Arret(data.intervenant.num_SS)">
-                        <img src="../assets/fleche-droite.png" height="30" width="30" alt="acceder"/>
+                        <img src="assets/fleche-droite.png" height="30" width="30" alt="acceder"/>
                       </button>
                     </th>
                   </tr>
@@ -257,7 +257,7 @@ onMounted(chargeIntervenant);
                     <th class="colonne">Voir tous les contrats</th>
                     <th>
                       <button @click="Contrat(data.intervenant.num_SS)">
-                        <img src="../assets/fleche-droite.png" height="30" width="30" alt="acceder"/>
+                        <img src="assets/fleche-droite.png" height="30" width="30" alt="acceder"/>
                       </button>
                     </th>
                   </tr>
