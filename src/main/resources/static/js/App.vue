@@ -4,6 +4,14 @@ import Intervenant from "../../../exemple_spring_security/src/main/resources/tem
 </script>
 
 <template>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My App</title>
+    <base href="/" />
+    <!-- ... autres balises d'en-tête ... -->
+  </head>
+
   <body>
   <div>
     <Bandeau />
