@@ -2,8 +2,10 @@ package monprojet;
 
 import lombok.extern.slf4j.Slf4j;
 import monprojet.service.UserService;
+import org.apache.catalina.security.SecurityConfig;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Import;
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 
@@ -13,6 +15,7 @@ import javax.annotation.PostConstruct;
 @EnableWebSecurity // Autorise les annotations de sécurité sur les contrôleurs
 @EnableGlobalMethodSecurity(securedEnabled = true)
 @Slf4j
+@Import(SecurityConfig.class)
 public class WebApplication {
     final
     UserService userService;
